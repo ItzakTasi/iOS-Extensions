@@ -19,6 +19,7 @@
 		F9D9AA7015048CF3002EAB55 /* NSFileManager+Management.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D9AA6E15048CF3002EAB55 /* NSFileManager+Management.m */; };
 		F9D9AA7715049E2A002EAB55 /* ITBlockAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D9AA7615049E2A002EAB55 /* ITBlockAlertView.m */; };
 		F9D9AA7B1504AF70002EAB55 /* ITBlockActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D9AA7A1504AF70002EAB55 /* ITBlockActionSheet.m */; };
+		F9D9AA7F1504B8E4002EAB55 /* AVCaptureDeviceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D9AA7E1504B8E4002EAB55 /* AVCaptureDeviceHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,8 @@
 		F9D9AA7615049E2A002EAB55 /* ITBlockAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITBlockAlertView.m; sourceTree = "<group>"; };
 		F9D9AA791504AF70002EAB55 /* ITBlockActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITBlockActionSheet.h; sourceTree = "<group>"; };
 		F9D9AA7A1504AF70002EAB55 /* ITBlockActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITBlockActionSheet.m; sourceTree = "<group>"; };
+		F9D9AA7D1504B8E4002EAB55 /* AVCaptureDeviceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCaptureDeviceHelper.h; sourceTree = "<group>"; };
+		F9D9AA7E1504B8E4002EAB55 /* AVCaptureDeviceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCaptureDeviceHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +139,7 @@
 		F9D9AA6415048A03002EAB55 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				F9D9AA7C1504B896002EAB55 /* AVCaptureDevice */,
 				F9D9AA781504AF4B002EAB55 /* ITBlockActionSheet */,
 				F9D9AA7415049E18002EAB55 /* ITBlockAlertView */,
 				F9D9AA7115049890002EAB55 /* Macros */,
@@ -168,6 +172,15 @@
 				F9D9AA7A1504AF70002EAB55 /* ITBlockActionSheet.m */,
 			);
 			path = ITBlockActionSheet;
+			sourceTree = "<group>";
+		};
+		F9D9AA7C1504B896002EAB55 /* AVCaptureDevice */ = {
+			isa = PBXGroup;
+			children = (
+				F9D9AA7D1504B8E4002EAB55 /* AVCaptureDeviceHelper.h */,
+				F9D9AA7E1504B8E4002EAB55 /* AVCaptureDeviceHelper.m */,
+			);
+			path = AVCaptureDevice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +252,7 @@
 				F9D9AA7015048CF3002EAB55 /* NSFileManager+Management.m in Sources */,
 				F9D9AA7715049E2A002EAB55 /* ITBlockAlertView.m in Sources */,
 				F9D9AA7B1504AF70002EAB55 /* ITBlockActionSheet.m in Sources */,
+				F9D9AA7F1504B8E4002EAB55 /* AVCaptureDeviceHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
