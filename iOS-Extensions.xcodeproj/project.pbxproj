@@ -22,14 +22,14 @@
 		F9D9AA42150489BD002EAB55 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F9D9AA44150489BD002EAB55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F9D9AA46150489BD002EAB55 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F9D9AA4A150489BD002EAB55 /* iOS-Extensions-Info.plist */ = {isa = PBXFileReference; path = "iOS-Extensions-Info.plist"; sourceTree = "<group>"; };
+		F9D9AA4A150489BD002EAB55 /* iOS-Extensions-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS-Extensions-Info.plist"; sourceTree = "<group>"; };
 		F9D9AA4C150489BD002EAB55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F9D9AA4E150489BD002EAB55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F9D9AA50150489BD002EAB55 /* iOS-Extensions-Prefix.pch */ = {isa = PBXFileReference; path = "iOS-Extensions-Prefix.pch"; sourceTree = "<group>"; };
-		F9D9AA51150489BD002EAB55 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F9D9AA50150489BD002EAB55 /* iOS-Extensions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS-Extensions-Prefix.pch"; sourceTree = "<group>"; };
+		F9D9AA51150489BD002EAB55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F9D9AA52150489BD002EAB55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F9D9AA55150489BD002EAB55 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		F9D9AA57150489BD002EAB55 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		F9D9AA57150489BD002EAB55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F9D9AA58150489BD002EAB55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +77,8 @@
 		F9D9AA48150489BD002EAB55 /* iOS-Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				F9D9AA5F150489C5002EAB55 /* Categories */,
+				F9D9AA6415048A03002EAB55 /* Extensions */,
 				F9D9AA51150489BD002EAB55 /* AppDelegate.h */,
 				F9D9AA52150489BD002EAB55 /* AppDelegate.m */,
 				F9D9AA54150489BD002EAB55 /* MainStoryboard.storyboard */,
@@ -96,6 +98,28 @@
 				F9D9AA50150489BD002EAB55 /* iOS-Extensions-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9D9AA5F150489C5002EAB55 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F9D9AA60150489D1002EAB55 /* NSFileManager */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		F9D9AA60150489D1002EAB55 /* NSFileManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSFileManager;
+			sourceTree = "<group>";
+		};
+		F9D9AA6415048A03002EAB55 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
