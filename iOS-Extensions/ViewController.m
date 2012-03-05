@@ -14,6 +14,7 @@
 {
     [super didReceiveMemoryWarning];
     // Release any cached data, images, etc that aren't in use.
+    
 }
 
 #pragma mark - View lifecycle
@@ -22,6 +23,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
 
 - (void)viewDidUnload

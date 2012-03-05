@@ -17,6 +17,8 @@
 		F9D9AA59150489BD002EAB55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D9AA58150489BD002EAB55 /* ViewController.m */; };
 		F9D9AA6F15048CF3002EAB55 /* NSFileManager+DirectoryPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D9AA6C15048CF3002EAB55 /* NSFileManager+DirectoryPaths.m */; };
 		F9D9AA7015048CF3002EAB55 /* NSFileManager+Management.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D9AA6E15048CF3002EAB55 /* NSFileManager+Management.m */; };
+		F9D9AA7715049E2A002EAB55 /* ITBlockAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D9AA7615049E2A002EAB55 /* ITBlockAlertView.m */; };
+		F9D9AA7B1504AF70002EAB55 /* ITBlockActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D9AA7A1504AF70002EAB55 /* ITBlockActionSheet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,10 @@
 		F9D9AA6E15048CF3002EAB55 /* NSFileManager+Management.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Management.m"; sourceTree = "<group>"; };
 		F9D9AA7215049932002EAB55 /* ConvertNSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvertNSLog.h; sourceTree = "<group>"; };
 		F9D9AA7315049B6C002EAB55 /* UtilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityMacros.h; sourceTree = "<group>"; };
+		F9D9AA7515049E2A002EAB55 /* ITBlockAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITBlockAlertView.h; sourceTree = "<group>"; };
+		F9D9AA7615049E2A002EAB55 /* ITBlockAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITBlockAlertView.m; sourceTree = "<group>"; };
+		F9D9AA791504AF70002EAB55 /* ITBlockActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITBlockActionSheet.h; sourceTree = "<group>"; };
+		F9D9AA7A1504AF70002EAB55 /* ITBlockActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITBlockActionSheet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +136,8 @@
 		F9D9AA6415048A03002EAB55 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				F9D9AA781504AF4B002EAB55 /* ITBlockActionSheet */,
+				F9D9AA7415049E18002EAB55 /* ITBlockAlertView */,
 				F9D9AA7115049890002EAB55 /* Macros */,
 			);
 			path = Extensions;
@@ -142,6 +150,24 @@
 				F9D9AA7315049B6C002EAB55 /* UtilityMacros.h */,
 			);
 			path = Macros;
+			sourceTree = "<group>";
+		};
+		F9D9AA7415049E18002EAB55 /* ITBlockAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				F9D9AA7515049E2A002EAB55 /* ITBlockAlertView.h */,
+				F9D9AA7615049E2A002EAB55 /* ITBlockAlertView.m */,
+			);
+			path = ITBlockAlertView;
+			sourceTree = "<group>";
+		};
+		F9D9AA781504AF4B002EAB55 /* ITBlockActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				F9D9AA791504AF70002EAB55 /* ITBlockActionSheet.h */,
+				F9D9AA7A1504AF70002EAB55 /* ITBlockActionSheet.m */,
+			);
+			path = ITBlockActionSheet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +237,8 @@
 				F9D9AA59150489BD002EAB55 /* ViewController.m in Sources */,
 				F9D9AA6F15048CF3002EAB55 /* NSFileManager+DirectoryPaths.m in Sources */,
 				F9D9AA7015048CF3002EAB55 /* NSFileManager+Management.m in Sources */,
+				F9D9AA7715049E2A002EAB55 /* ITBlockAlertView.m in Sources */,
+				F9D9AA7B1504AF70002EAB55 /* ITBlockActionSheet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
